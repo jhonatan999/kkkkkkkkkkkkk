@@ -1,0 +1,32 @@
+Algoritmo "Olá mundo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 12/04/2022
+Var
+   // Seção de Declarações das variáveis
+   senha1,senha2:caracter
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("coloque sua senha")
+   leia(senha1)
+   senha2 <- "1000"
+
+   se (senha1 = senha2) entao
+      escreval("parabens você acertou")
+   senao
+      se(senha1 > senha2)entao
+         escreval("coloque um numero menor")
+      senao
+         escreval("escreva um numero maior")
+
+
+       fimse
+       fimse
+
+
+
+
+Fimalgoritmo
